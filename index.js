@@ -11,8 +11,8 @@ converter = (input) => {
   console.log(convert)
 }
 
-convertToDecimal = (x) => {
-  switch (x) {
+convertToDecimal = (numeral) => {
+  switch (numeral) {
     case 'M': value = 1000
     break;
     case 'D': value = 500
